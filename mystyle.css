@@ -1,0 +1,77 @@
+.backDoor
+{
+  background-color: #333;
+  position:relative;
+  width:200px;
+  height:300px;
+  
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+.door
+{
+  background-color: brown;
+  position:absolute;
+  display: grid;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:300px;
+  grid-template-columns: auto auto;
+
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+}
+
+.doorOpen
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+
+.silhouette
+{   
+    background-color: peru;
+    margin: 10px;
+
+    transform-origin: left;
+    /*Speed of the silhouette animation*/
+    transition: all 0.65s ease-out;
+}
+
+.top_silhouette{
+  background-color: chocolate;
+  margin: 10px;
+  height: 80%;
+  width: 80%;
+
+  transform-origin: left;
+  /*Speed of the silhouette animation*/
+  transition: all 0.65s ease-out;
+}
+
+.knob
+{
+    background-color: yellow;
+    position:absolute;
+    top:47%;
+    right:0px;
+    margin-right:7px;
+    width:27px;
+    height:27px;
+    border-radius:100%;
+    box-shadow: 3px 3px 3px black;
+
+    transform-origin: left;
+    /*Speed of the Knob animation*/
+    transition: all 0.65s ease-out;
+}
+
+.knobOpen
+{
+     /*disapper knob when door open*/
+    background-color: brown;
+    box-shadow: none;
+}
