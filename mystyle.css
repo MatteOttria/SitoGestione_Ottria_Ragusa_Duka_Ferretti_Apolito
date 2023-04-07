@@ -43,9 +43,12 @@
 
 .top_silhouette{
   background-color: chocolate;
-  margin: 10px;
-  height: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  height: 85%;
   width: 80%;
+  box-shadow: 0 0 1.5px black;
 
   transform-origin: left;
   /*Speed of the silhouette animation*/
