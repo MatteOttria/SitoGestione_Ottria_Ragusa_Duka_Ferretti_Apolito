@@ -78,3 +78,26 @@
     background-color: brown;
     box-shadow: none;
 }
+
+/*settings in full screen for navbar*/
+.navbar{
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 30px;
+  width: 80%;
+  height: 65px;
+  background-color: aqua;
+}
+
+/*settings in full screen for logo*/
+.logo{
+  position: relative;
+  margin-left: 46%;
+  margin-right: 46%;
+  width: 8%;
+  height: 135%;
+  border-radius: 15px;
+  background-color: blue;
+}
