@@ -1,173 +1,77 @@
-body {
-  margin:0;
-  padding:0;
-  height:100%;
+.top{
+    text-align: center;
 }
-
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -50px;
-}
-
-.footer,
-.push {
-  height: 50px;
-}
-
-.backDoor
-{
-  background-color: #333;
-  position:relative;
-  width:200px;
-  height:300px;
-  
-  margin: 0 auto;
-  margin-top:50px;
-}
-
-.door
-{
-  background-color: brown;
-  position:absolute;
-  display: grid;
-  top:0px;
-  left:0px;
-  width:200px;
-  height:300px;
-  grid-template-columns: auto auto;
-
-  transform-origin: left;
-  /*Speed of the Door animation*/
-  transition: all 0.5s ease-in-out;
-}
-
-.doorOpen
-{
-  /*prespectiv creates the door open effect*/
-  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
-}
-
-.silhouette
-{   
-    background-color: peru;
-    margin: 10px;
-
-    transform-origin: left;
-    /*Speed of the silhouette animation*/
-    transition: all 0.65s ease-out;
-}
-
-.top_silhouette{
-  background-color: chocolate;
-  margin-top: 10%;
-  margin-left: 10%;
-  margin-bottom: 10%;
-  height: 85%;
-  width: 80%;
-  box-shadow: 0 0 1.5px black;
-
-  transform-origin: left;
-  /*Speed of the silhouette animation*/
-  transition: all 0.65s ease-out;
-}
-
-.knob
-{
-    background-color: yellow;
-    position:absolute;
-    top:47%;
-    right:0px;
-    margin-right:7px;
-    width:27px;
-    height:27px;
-    border-radius:100%;
-    box-shadow: 3px 3px 3px black;
-
-    transform-origin: left;
-    /*Speed of the Knob animation*/
-    transition: all 0.65s ease-out;
-}
-
-.knobOpen
-{
-     /*disapper knob when door open*/
-    background-color: brown;
-    box-shadow: none;
-}
-
-/*settings in full screen for navbar*/
-.navbar{
-  position: absolute;
-  margin-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-radius: 30px;
-  width: 80%;
-  height: 75px;
-  background-color: aqua;
-}
-
-/*settings in full screen for logo*/
-.logo{
-  margin-left: 32.5%;
-  margin-right: 32.5%;
-  width: 35%;
-  height: 140%;
-  border-radius: 15px;
-  background-color: blue;
-}
-
-.presentation{
-  padding-top: 15%;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 80%;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  margin-bottom: 30rem;
-}
-
-.presentation-text{
-  float: left;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: aut;
-}
-
-.presentation-img{
-  float: right;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 100%;
-}
-
-.img-p{
-  margin-top: 10px;
-  width: 7.5rem!important;
-  height: 7.5rem!important;
-}
-
 .img-c{
-  position: relative;
-  width: 50rem!important;
-  height: 40rem!important;
-  border-radius: 1.5rem!important;
-  border-style: solid;
-  border-width: 0.2rem!important;
-  border-color: green;
+    height: 500px !important;
 }
-
-.carousel {
-  margin-left: 10%;
-  margin-right: 10%;
+.carousel{
+    text-align: center;
+    z-index: -1;
+    box-shadow: 0px 7px 28px -11px #000000;
 }
-
+.header{
+    margin-top: 20px;
+    background-color: rgb(130, 94, 49);
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+    z-index: 999;
+    box-shadow: 0px 7px 28px 4px rgb(0, 0, 0);
+}
+.middle{
+    margin-top: 3%;
+    text-align: center;
+}
+h5{
+    margin-top: 3%;
+}
 hr{
-  border: 0;
-  height: 1px;
-  width: 50%;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 30%;
+    margin-bottom: 3%;
 }
+.btn-c{
+color: white;
+background-color: bisque;
+}
+.btn-c:hover{
+    background-color: rgb(192, 162, 124);
+    transition: 2s;
+    box-shadow: 0px 0px 39px -10px #000000;
+}
+.card-h:hover{
+    transition: 2s;
+box-shadow: 0px 0px 39px -10px #000000;
+}
+.container{
+    text-align: center !important;
+}
+.card-c{
+    text-align: center !important;
+    border: none !important;
+}
+.card-c img{
+    width: 100px;
+}
+.card-c p{
+    font-size: x-small;
+}
+.card-c:hover{
+    color: bisque;
+    transition: 1s;
+}
+.presentation{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  .presentation-text{
+    float: left;
+    width: 35%;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+    height: auto;
+  }
