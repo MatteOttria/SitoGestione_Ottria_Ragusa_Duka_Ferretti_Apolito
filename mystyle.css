@@ -7,13 +7,15 @@
 .carousel{
     text-align: center;
     z-index: -1;
+    margin-left: 300px;
+    margin-right: 300px;
     box-shadow: 0px 7px 28px -11px #000000;
 }
 .header{
     margin-top: 20px;
     text-align: center;
     background-color: rgb(130, 94, 49);
-    width: 35%;
+    width: 40%;
     height: 50px;
     position: absolute;
     top: 0;
@@ -22,6 +24,7 @@
     margin-right: 32.5%;
     z-index: 999;
     box-shadow: 0px 7px 28px 4px rgb(0, 0, 0);
+    padding-top: 4px;
 }
 
 .middle{
@@ -29,8 +32,11 @@
     text-align: center;
 }
 
-h4{
+.span{
     margin-top: 10px;
+    margin-left: 25px;
+    margin-right: auto;
+    font-size: 25px;
 }
 
 h5{
@@ -69,6 +75,7 @@ box-shadow: 0px 0px 39px -10px #000000;
 
 .card-c img{
     width: 100px;
+    
 }
 
 .card-c p{
@@ -92,4 +99,84 @@ box-shadow: 0px 0px 39px -10px #000000;
   margin-left: 32.5%;
   margin-right: 32.5%;
   height: auto;
+}
+.navbar-home{
+color: #000000;
+
+}
+.navbar-home:hover{
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.dropbtn {
+    background-color: rgb(130, 94, 49);
+    border: none;
+    margin-left: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  .dropdown:hover .dropbtn {
+    background-color: rgb(130, 94, 49);
+}
+.card-img-top{
+height: 300px;
+
+}
+.fot{
+    margin-top: 10rem;
+    background-color:#ffffff;
+    color:#4b4c4d;
+    display: block;
+    text-decoration: none;
+    border-top: 1px solid black;
+}
+
+.icon{
+    padding-left: 4%;
+    padding-right: 4%;
+    text-decoration: none;
+    color:#4b4c4d;
+}
+.icon:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.a{
+    margin-top:15px;
+    text-align:center;
+    font-size: 1.2rem;
+    color:#000000;
+    text-decoration: none;
 }
