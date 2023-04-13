@@ -52,30 +52,8 @@
             </div>
         </div>
         <div class="middle">
-            <h5>Ferri&Ferretti</h5>
-            <hr>
-            <div class="presentation">
-                <div class="presentation-text">
-                    <p>
-                        La nostra azienda è stata fondata con una visione: offrire ai nostri clienti prodotti d'eccellenza,
-                        realizzati con artigianalità e passione. La nostra squadra è composta da esperti artigiani toscani,
-                        che mettono il loro savoir-faire e la loro maestria nel creare porte ed infissi unici e di alta
-                        qualità.
-                    </p>
-                    <p>
-                        Ci impegniamo a offrire una vasta gamma di soluzioni di porte ed infissi, sia per interni che per
-                        esterni, per soddisfare le diverse esigenze dei nostri clienti. Dalle porte d'ingresso alle porte
-                        interne, alle finestre e alle persiane, ogni nostro prodotto è realizzato con cura e attenzione ai
-                        dettagli, utilizzando materiali pregiati e tecniche di produzione all'avanguardia.
-                    </p>
-                    <p>
-                        Inoltre, ci prendiamo cura dell'aspetto estetico dei nostri prodotti, offrendo una vasta scelta di
-                        stili, design e finiture, in modo da poter trovare la soluzione perfetta per abbellire la vostra
-                        casa o il vostro ufficio. Che siate amanti del design moderno o del fascino classico, abbiamo una
-                        vasta gamma di opzioni per soddisfare i vostri gusti personali.
-                    </p>
-                </div>
-            </div>
+
+
         </div>
         <h5 style="text-align: center;">I Nostri Tipi Di Prodotti</h5>
         <hr>
@@ -111,6 +89,30 @@
             </div>
         </div>
     </div>
+    <h5>Ferri&Ferretti</h5>
+            <hr>
+    <div class="presentation">
+                <div class="presentation-text">
+                    <p>
+                        La nostra azienda è stata fondata con una visione: offrire ai nostri clienti prodotti d'eccellenza,
+                        realizzati con artigianalità e passione. La nostra squadra è composta da esperti artigiani toscani,
+                        che mettono il loro savoir-faire e la loro maestria nel creare porte ed infissi unici e di alta
+                        qualità.
+                    </p>
+                    <p>
+                        Ci impegniamo a offrire una vasta gamma di soluzioni di porte ed infissi, sia per interni che per
+                        esterni, per soddisfare le diverse esigenze dei nostri clienti. Dalle porte d'ingresso alle porte
+                        interne, alle finestre e alle persiane, ogni nostro prodotto è realizzato con cura e attenzione ai
+                        dettagli, utilizzando materiali pregiati e tecniche di produzione all'avanguardia.
+                    </p>
+                    <p>
+                        Inoltre, ci prendiamo cura dell'aspetto estetico dei nostri prodotti, offrendo una vasta scelta di
+                        stili, design e finiture, in modo da poter trovare la soluzione perfetta per abbellire la vostra
+                        casa o il vostro ufficio. Che siate amanti del design moderno o del fascino classico, abbiamo una
+                        vasta gamma di opzioni per soddisfare i vostri gusti personali.
+                    </p>
+                </div>
+            </div>
     <footer class="fot">
         <center>
             <div>
