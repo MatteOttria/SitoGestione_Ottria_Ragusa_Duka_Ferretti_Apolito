@@ -17,11 +17,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="mystyle.css" />
+    <link rel="stylesheet" href="../mystyle.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <title>Home</title>
 </head>
-
 <body>
     <div>
         </div>
@@ -32,22 +31,22 @@
                 <div class="dropdown">
                     <button class="dropbtn">Shopping</button>
                     <div class="dropdown-content">
-                      <a href="pages/finestre.html">Finestre</a>
-                      <a href="pages/persiane.html">Persiane</a>
-                      <a href="pages/porte.html">Porte</a>
+                      <a href="finestre.html">Finestre</a>
+                      <a href="persiane.html">Persiane</a>
+                      <a href="porte.html">Porte</a>
                     </div>
                 </div> 
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./images/all-2.jpg" class="img-c d-block w-100" />
+                        <img src="../images/all-2.jpg" class="img-c d-block w-100" />
                     </div>
                     <div class="carousel-item">
-                        <img src="./images/all-1.jpg" class="img-c d-block w-100" />
+                        <img src="../images/all-1.jpg" class="img-c d-block w-100" />
                     </div>
                     <div class="carousel-item">
-                        <img src="./images/all-0.jpg" class="img-c d-block w-100" />
+                        <img src="../images/all-0.jpg" class="img-c d-block w-100" />
                     </div>
                 </div>
             </div>
@@ -78,35 +77,34 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br><br>
         <h5 style="text-align: center;">I Nostri Tipi Di Prodotti</h5>
         <hr>
         <div class="container">
             <div class="row">
                 <div class="col-sm">
                     <div class="card card-h" style="width: 18rem;">
-                        <img class="card-img-top" src="./images/finestra5.jpeg" alt="Card image cap">
+                        <img class="card-img-top" src="../images/finestra5.jpeg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Finestre</h5>
-                            <a href="./pages/finestre.html" class="btn btn-c">Scopri...</a>
+                            <a href="../pages/finestre.html" class="btn btn-c">Scopri...</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="card card-h" style="width: 18rem;">
-                        <img class="card-img-top" src="./images/persiana1.webp" alt="Card image cap">
+                        <img class="card-img-top" src="../images/persiana1.webp" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Persiane</h5>
-                            <a href="./pages/persiane.html" class="btn btn-c">Scopri...</a>
+                            <a href="../pages/persiane.html" class="btn btn-c">Scopri...</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="card card-h" style="width: 18rem;">
-                        <img class="card-img-top" src="./images/porta3.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="../images/porta3.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Porte</h5>
-                            <a href="./pages/porte.html" class="btn btn-c">Scopri...</a>
+                            <a href="../pages/porte.html" class="btn btn-c">Scopri...</a>
                         </div>
                     </div>
                 </div>
@@ -138,8 +136,8 @@
                 </a>
             </div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="index.html">Home</a></li>
-                <li class="list-inline-item"><a href="./pages/policyPrivacy.html" target="_blank">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="./home.html">Home</a></li>
+                <li class="list-inline-item"><a href="../pages/policyPrivacy.html" target="_blank">Privacy Policy</a></li>
             </ul>
             <p class="a">Ferri&Ferretti © 2023</p>
         </center>
