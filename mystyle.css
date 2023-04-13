@@ -10,7 +10,6 @@ body::after{
 
 .top{
     text-align: center;
-    position: relative;
 }
 .img-c{
     height: 500px !important;
