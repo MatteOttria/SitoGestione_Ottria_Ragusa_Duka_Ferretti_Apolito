@@ -62,6 +62,8 @@ body::after {
 
 h5 {
   margin-top: 3%;
+  padding-top: 30px;
+  text-align: center;
 }
 
 hr {
@@ -112,6 +114,7 @@ hr {
 .presentation {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  margin-bottom: 175px;
 }
 
 .presentation-text {
